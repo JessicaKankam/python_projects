@@ -51,5 +51,16 @@ The objective of this project was to identify the behavioral factors that influe
 - Introduce behavior-based tiered benefits rather than demographic-based loyalty programs
 
 ## Tools Used
-Python (pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels)
+- **Data analysis:** pandas, numpy  
+- **Statistics & econometrics:** scipy.stats, statsmodels (api, formula.api), variance_inflation_factor  
+- **Visualization:** matplotlib, seaborn, plotnine (ggplot-style)  
+- **Machine learning (scikit-learn):**
+  - Preprocessing: ColumnTransformer, OneHotEncoder, StandardScaler
+  - Train/test split: train_test_split
+  - Regression: LinearRegression, Lasso
+  - Classification: LogisticRegression, DecisionTreeClassifier
+  - Model validation: cross_val_score, KFold
+  - Evaluation: mean_squared_error, accuracy_score, confusion_matrix
+  - Clustering: KMeans
+  - Decision tree plotting: plot_tree
 
