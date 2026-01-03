@@ -2,7 +2,7 @@
 
 ## Business Problem
 ElectroMart, an online electronics retailer, invests heavily in promotions and customer retention but lacked clarity on what truly drives customer spending and long-term value.  
-The objective of this project was to identify the behavioral factors that influence customer value, predict high- vs low-value customers, and develop actionable customer segments to support targeted marketing strategies.
+The objective of this project was to identify the behavioral factors that influence customer value, predict high vs low value customers, and develop actionable customer segments to support targeted marketing strategies.
 
 ## Data Overview
 - Transaction-level customer purchase data
@@ -22,7 +22,7 @@ The objective of this project was to identify the behavioral factors that influe
 3. **Hypothesis Testing**
    - Tested relationships between spending and product categories, add-ons, and seasonality
    - Found statistically significant differences in spending across product types and strong interaction effects between product category and season
-   - Determined that behavioral variables—not demographics—drive customer value
+   - Determined that behavioral variables, not demographics, drive customer value
 
 4. **Predictive Modeling**
    - **Linear Regression:** Predicted total spending using behavioral features
