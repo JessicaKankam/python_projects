@@ -5,8 +5,9 @@ The projects focus on applying data analytics techniques to real-world marketing
 - Exploratory Data Analysis (EDA)
 - Data cleaning and preprocessing
 - Statistical analysis and hypothesis testing
-- Regression modeling
-- Customer and campaign insights
+- Predictive modeling (regression + classification)
+- Clustering
+- Business interpretation and recommendations
 - Data-driven storytelling for business decision-making
 
 Each project is organized in its own folder and includes:
@@ -15,4 +16,13 @@ Each project is organized in its own folder and includes:
 - A brief project-specific README explaining the business question, approach, and key insights
 
 **Tools & Libraries:**  
-Python, pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels
+- **Data analysis:** pandas, numpy
+- **Statistics & econometrics:** scipy.stats, statsmodels (api, formula.api), variance_inflation_factor
+- **Visualization:** matplotlib, seaborn, plotnine (ggplot-style)
+- **Machine learning (scikit-learn):**
+  - Preprocessing: ColumnTransformer, OneHotEncoder, StandardScaler
+  - Model selection: train_test_split, cross_val_score, KFold
+  - Models: LinearRegression, Lasso, LogisticRegression, DecisionTreeClassifier
+  - Metrics: mean_squared_error, accuracy_score, confusion_matrix
+  - Clustering: KMeans
+  - Tree visualization: plot_tree
