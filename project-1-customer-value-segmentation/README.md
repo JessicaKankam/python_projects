@@ -4,6 +4,15 @@
 ElectroMart, an online electronics retailer, invests heavily in promotions and customer retention but lacked clarity on what truly drives customer spending and long-term value.  
 The objective of this project was to identify the behavioral factors that influence customer value, predict high vs low value customers, and develop actionable customer segments to support targeted marketing strategies.
 
+**Research Objective**
+To identify the behavioral and transactional factors that drive customer spending in electronic device purchases and to uncover distinct customer segments using supervised and unsupervised machine learning techniques.
+
+**Research Questions**
+1. Which behavioral and transactional variables (e.g., product type, quantity, add-ons, payment method, shipping type, seasonality) most strongly influence total spending and customer value?
+2. How accurately can supervised machine learning models classify customers into high-value and low-value groups using behavioral data?
+3. What meaningful customer segments emerge from unsupervised learning, and how do these segments differ in spending behavior and product preferences?
+4. How can insights from predictive modeling and clustering inform targeted marketing strategies and loyalty program design?
+   
 ## Data Overview
 - Transaction-level customer purchase data
 - Behavioral variables including product type, quantity, add-ons, shipping method, payment method, seasonality, and ratings
