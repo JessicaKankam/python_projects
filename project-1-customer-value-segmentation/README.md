@@ -1,11 +1,13 @@
 # Customer Value Analysis & Segmentation for ElectroMart
 
 **Business Problem:**
+
 ElectroMart, an online electronics retailer, invests significantly in promotions and customer retention initiatives but lacked clear insight into which customer behaviors truly drive spending and long-term value. Existing strategies relied on broad targeting, resulting in inefficient resource allocation and limited personalization.
 
 **The objective of this project** was to identify the behavioral drivers of customer value, accurately predict high- vs. low-value customers, and develop actionable customer segments to support data-driven marketing, retention, and loyalty strategies.
 
 **Research Questions:**
+
 1. Which behavioral and transactional variables (e.g., product type, quantity, add-ons, payment method, shipping type, seasonality, ratings) most strongly influence customer spending and value?
 
 2. How effectively can supervised machine learning models classify customers into high-value and low-value groups using behavioral data?
@@ -15,16 +17,17 @@ ElectroMart, an online electronics retailer, invests significantly in promotions
 4. How can insights from predictive modeling and clustering inform targeted marketing strategies, loyalty program design, and customer experience improvements?
 
 **Data Overview:**
+
 -Transaction-level customer purchase data
 
 -Behavioral variables including:
-Product type
-Quantity purchased
-Add-on spending
-Shipping method
-Payment method
-Seasonality
-Customer ratings
+1. Product type
+2. Quantity purchased
+3. Add-on spending
+4. Shipping method
+5. Payment method
+6. Seasonality
+7. Customer ratings
 
 -Demographic variables were initially explored but excluded after statistical testing showed no meaningful relationship with customer value or spending
 
