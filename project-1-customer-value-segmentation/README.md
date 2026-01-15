@@ -1,75 +1,99 @@
 # Customer Value Analysis & Segmentation for ElectroMart
 
-## Business Problem
-ElectroMart, an online electronics retailer, invests heavily in promotions and customer retention but lacked clarity on what truly drives customer spending and long-term value.  
-The objective of this project was to identify the behavioral factors that influence customer value, predict high vs low value customers, and develop actionable customer segments to support targeted marketing strategies.
+**Business Problem:**
+ElectroMart, an online electronics retailer, invests significantly in promotions and customer retention initiatives but lacked clear insight into which customer behaviors truly drive spending and long-term value. Existing strategies relied on broad targeting, resulting in inefficient resource allocation and limited personalization.
 
-**Research Objective**
-To identify the behavioral and transactional factors that drive customer spending in electronic device purchases and to uncover distinct customer segments using supervised and unsupervised machine learning techniques.
+**The objective of this project** was to identify the behavioral drivers of customer value, accurately predict high- vs. low-value customers, and develop actionable customer segments to support data-driven marketing, retention, and loyalty strategies.
 
-**Research Questions**
-1. Which behavioral and transactional variables (e.g., product type, quantity, add-ons, payment method, shipping type, seasonality) most strongly influence total spending and customer value?
-2. How accurately can supervised machine learning models classify customers into high-value and low-value groups using behavioral data?
-3. What meaningful customer segments emerge from unsupervised learning, and how do these segments differ in spending behavior and product preferences?
-4. How can insights from predictive modeling and clustering inform targeted marketing strategies and loyalty program design?
-   
-## Data Overview
-- Transaction-level customer purchase data
-- Behavioral variables including product type, quantity, add-ons, shipping method, payment method, seasonality, and ratings
-- Demographic variables were initially explored but excluded after statistical testing showed no significant impact on spending
+**Research Questions:**
+1. Which behavioral and transactional variables (e.g., product type, quantity, add-ons, payment method, shipping type, seasonality, ratings) most strongly influence customer spending and value?
 
-## Methodology
-1. **Data Preparation**
-   - Cleaned and transformed date variables to create seasonal indicators
-   - Classified customers as high- or low-value using median total spending to account for right-skewed distributions
-   - Encoded categorical variables for analysis
+2. How effectively can supervised machine learning models classify customers into high-value and low-value groups using behavioral data?
 
-2. **Exploratory Data Analysis (EDA)**
-   - Analyzed spending distributions and key behavioral variables
-   - Identified patterns across product categories, add-ons, and seasonal effects
+3. What meaningful customer segments emerge from unsupervised learning, and how do these segments differ?
 
-3. **Hypothesis Testing**
-   - Tested relationships between spending and product categories, add-ons, and seasonality
-   - Found statistically significant differences in spending across product types and strong interaction effects between product category and season
-   - Determined that behavioral variables, not demographics, drive customer value
+4. How can insights from predictive modeling and clustering inform targeted marketing strategies, loyalty program design, and customer experience improvements?
 
-4. **Predictive Modeling**
-   - **Linear Regression:** Predicted total spending using behavioral features
-   - **Logistic Regression:** Classified customers as high- or low-value (accuracy ≈ 82%)
-   - **Decision Tree:** Captured non-linear patterns and improved classification accuracy (≈ 88%)
+**Data Overview:**
+-Transaction-level customer purchase data
 
-5. **Customer Segmentation**
-   - Applied k-means clustering (k = 3) using behavioral features
-   - Identified three actionable customer segments:
-     - *Low-Spend Efficient Buyers*
-     - *Add-On Lovers / Accessory-Heavy Buyers*
-     - *Bulk & High-Value Buyers*
-   - Strong alignment observed between predictive classifications and clusters
+-Behavioral variables including:
+Product type
+Quantity purchased
+Add-on spending
+Shipping method
+Payment method
+Seasonality
+Customer ratings
 
-## Key Insights
-- Customer value is driven by **behavioral factors**, not demographics
-- Product category and seasonality have a significant interaction effect on spending
-- Add-on purchases and quantity strongly differentiate high-value customers
-- Decision trees outperformed logistic regression in capturing non-linear spending behavior
+-Demographic variables were initially explored but excluded after statistical testing showed no meaningful relationship with customer value or spending
 
-## Business Recommendations
-- Shift marketing segmentation from demographics to behavioral signals
-- Target high-value and bulk buyers with premium offers and early product access
-- Increase attachment rates for add-on–heavy customers using bundles and checkout prompts
-- Use decision tree rules to automate personalized marketing flows
-- Introduce behavior-based tiered benefits rather than demographic-based loyalty programs
+**Methodology:**
 
-## Tools Used
-- **Data analysis:** pandas, numpy  
-- **Statistics & econometrics:** scipy.stats, statsmodels (api, formula.api), variance_inflation_factor  
-- **Visualization:** matplotlib, seaborn, plotnine (ggplot-style)  
-- **Machine learning (scikit-learn):**
-  - Preprocessing: ColumnTransformer, OneHotEncoder, StandardScaler
-  - Train/test split: train_test_split
-  - Regression: LinearRegression, Lasso
-  - Classification: LogisticRegression, DecisionTreeClassifier
-  - Model validation: cross_val_score, KFold
-  - Evaluation: mean_squared_error, accuracy_score, confusion_matrix
-  - Clustering: KMeans
-  - Decision tree plotting: plot_tree
+**Data Preparation**
+1. Cleaned and transformed transaction dates to create seasonal indicators.
+2. Classified customers as high-value or low-value using median total spending to account for right-skewed revenue distributions.
+3. Created binary codes for relevant columns like Gender.
+4. Encoded categorical variables and standardized numeric features for modeling and clustering
+
+**Exploratory Data Analysis (EDA)**
+1. Analyzed spending distributions and customer purchasing patterns
+2. Examined differences across product categories, add-on behavior, and ratings
+
+**Hypothesis Testing**
+Tested relationships between customer spending and:
+-Product category
+-Add-on purchases
+-Seasonality
+
+**Predictive Modeling**
+**1. Linear Regression:** Modeled total spending using behavioral features
+**2. Logistic Regression:** Classified customers into high- vs. low-value groups (Accuracy ≈ 82%)
+**3. Decision Tree Classifier:** Captured non-linear behavior patterns (Accuracy ≈ 88%)
+Decision trees provided the most interpretable and actionable rules for identifying value-driving behaviors
+
+**Customer Segmentation**
+Applied k-means clustering (k = 4) using behavioral features
+Identified four distinct customer segments:
+-Loyal Core Smartphone Buyers
+-Add-On Revenue Drivers
+-Low-Engagement Buyers
+-High-Volume Transactional Buyers
+
+Strong alignment observed between behavioral clusters and HighValue predictions, confirming that unsupervised segmentation naturally reflects customer value tiers
+
+**Key Insights:**
+1. Customer value is driven by behavioral factors, not demographics
+2. Purchase quantity, add-on spending, and product type are the strongest predictors of value
+3. Product performance varies significantly by season, reinforcing the importance of timing in promotions and inventory planning.
+4. High revenue does not always imply high satisfaction or loyalty
+5. Decision trees outperform linear models in capturing complex customer behavior patterns
+
+**Business Recommendations:**
+1. Shift marketing segmentation from demographic targeting to behavior-based strategies
+2. Prioritize high-value and high-volume customers with premium service, early product access, and retention initiatives
+3. Optimize add-on attachment rates through targeted bundles and checkout prompts for add-on–heavy customers
+4. Use decision tree rules to automate personalized marketing and service interventions
+5. Redesign loyalty programs to reward value-driving behaviors rather than static membership tiers
+6. Align promotions and inventory decisions with seasonal product demand patterns
+
+**Tools Used**
+**Data Analysis & Manipulation**
+-pandas, numpy
+-Statistics & Econometrics: scipy.stats, statsmodels (api, formula.api), variance_inflation_factor
+
+**Visualization**
+-matplotlib
+-seaborn
+-plotnine (ggplot-style)
+
+**Machine Learning (scikit-learn)**
+**Preprocessing:** ColumnTransformer, OneHotEncoder, StandardScaler
+**Model training:** train_test_split
+**Regression:** LinearRegression, Lasso
+**Classification:** LogisticRegression, DecisionTreeClassifier
+**Model validation:** cross_val_score, KFold
+**Evaluation:** mean_squared_error, accuracy_score, confusion_matrix
+**Clustering:** KMeans
+**Decision tree visualization:** plot_tree
 
