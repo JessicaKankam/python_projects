@@ -48,7 +48,9 @@ ElectroMart, an online electronics retailer, invests significantly in promotions
 Tested relationships between customer spending and:
 
 -Product category
+
 -Add-on purchases
+
 -Seasonality
 
 **B. Predictive Modeling**
@@ -64,9 +66,13 @@ Decision trees provided the most interpretable and actionable rules for identify
 
 Applied k-means clustering (k = 4) using behavioral features
 Identified four distinct customer segments:
+
 -Loyal Core Smartphone Buyers
+
 -Add-On Revenue Drivers
+
 -Low-Engagement Buyers
+
 -High-Volume Transactional Buyers
 
 Strong alignment observed between behavioral clusters and HighValue predictions, confirming that unsupervised segmentation naturally reflects customer value tiers
