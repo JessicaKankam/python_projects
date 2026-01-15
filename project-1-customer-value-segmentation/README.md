@@ -110,19 +110,19 @@ Strong alignment observed between behavioral clusters and HighValue predictions,
 
 **Machine Learning (scikit-learn)**
 
-**Preprocessing:** ColumnTransformer, OneHotEncoder, StandardScaler
+-**Preprocessing:** ColumnTransformer, OneHotEncoder, StandardScaler
 
-**Model training:** train_test_split
+-**Model training:** train_test_split
 
-**Regression:** LinearRegression, Lasso
+-**Regression:** LinearRegression, Lasso
 
-**Classification:** LogisticRegression, DecisionTreeClassifier
+-**Classification:** LogisticRegression, DecisionTreeClassifier
 
-**Model validation:** cross_val_score, KFold
+-**Model validation:** cross_val_score, KFold
 
-**Evaluation:** mean_squared_error, accuracy_score, confusion_matrix
+-**Evaluation:** mean_squared_error, accuracy_score, confusion_matrix
 
-**Clustering:** KMeans
+-**Clustering:** KMeans
 
-**Decision tree visualization:** plot_tree
+-**Decision tree visualization:** plot_tree
 
