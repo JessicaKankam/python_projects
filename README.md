@@ -1,5 +1,5 @@
 # python_projects
-This repository contains Python projects completed as part of a graduate-level marketing analytics course as well as personal projects.
+I have completed many projects in Python and this repository contains the ones I am most proud of. 
 
 The projects focus on applying data analytics techniques to real-world marketing problems, including:
 - Exploratory Data Analysis (EDA)
