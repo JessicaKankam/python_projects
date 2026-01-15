@@ -46,6 +46,7 @@ ElectroMart, an online electronics retailer, invests significantly in promotions
 **A. Hypothesis Testing**
 
 Tested relationships between customer spending and:
+
 -Product category
 -Add-on purchases
 -Seasonality
@@ -53,7 +54,9 @@ Tested relationships between customer spending and:
 **B. Predictive Modeling**
 
 **1. Linear Regression:** Modeled total spending using behavioral features
+
 **2. Logistic Regression:** Classified customers into high- vs. low-value groups (Accuracy ≈ 82%)
+
 **3. Decision Tree Classifier:** Captured non-linear behavior patterns (Accuracy ≈ 88%)
 Decision trees provided the most interpretable and actionable rules for identifying value-driving behaviors
 
