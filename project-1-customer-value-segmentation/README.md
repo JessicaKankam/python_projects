@@ -93,22 +93,36 @@ Strong alignment observed between behavioral clusters and HighValue predictions,
 6. Align promotions and inventory decisions with seasonal product demand patterns
 
 **Tools Used**
+
 **Data Analysis & Manipulation**
+
 -pandas, numpy
+
 -Statistics & Econometrics: scipy.stats, statsmodels (api, formula.api), variance_inflation_factor
 
 **Visualization**
+
 -matplotlib
+
 -seaborn
+
 -plotnine (ggplot-style)
 
 **Machine Learning (scikit-learn)**
+
 **Preprocessing:** ColumnTransformer, OneHotEncoder, StandardScaler
+
 **Model training:** train_test_split
+
 **Regression:** LinearRegression, Lasso
+
 **Classification:** LogisticRegression, DecisionTreeClassifier
+
 **Model validation:** cross_val_score, KFold
+
 **Evaluation:** mean_squared_error, accuracy_score, confusion_matrix
+
 **Clustering:** KMeans
+
 **Decision tree visualization:** plot_tree
 
