@@ -43,19 +43,22 @@ ElectroMart, an online electronics retailer, invests significantly in promotions
 1. Analyzed spending distributions and customer purchasing patterns
 2. Examined differences across product categories, add-on behavior, and ratings
 
-**Hypothesis Testing**
+**A. Hypothesis Testing**
+
 Tested relationships between customer spending and:
 -Product category
 -Add-on purchases
 -Seasonality
 
-**Predictive Modeling**
+**B. Predictive Modeling**
+
 **1. Linear Regression:** Modeled total spending using behavioral features
 **2. Logistic Regression:** Classified customers into high- vs. low-value groups (Accuracy ≈ 82%)
 **3. Decision Tree Classifier:** Captured non-linear behavior patterns (Accuracy ≈ 88%)
 Decision trees provided the most interpretable and actionable rules for identifying value-driving behaviors
 
-**Customer Segmentation**
+**C. Customer Segmentation**
+
 Applied k-means clustering (k = 4) using behavioral features
 Identified four distinct customer segments:
 -Loyal Core Smartphone Buyers
