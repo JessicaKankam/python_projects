@@ -1,4 +1,4 @@
-# Customer Value Analysis & Segmentation for ElectroMart (in Python)
+# Customer Value Analysis & Segmentation for ElectroMart
 
 ## Business Problem
 ElectroMart, an online electronics retailer, invests heavily in promotions and customer retention but lacked clarity on what truly drives customer spending and long-term value.  
