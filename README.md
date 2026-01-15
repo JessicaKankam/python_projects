@@ -1,7 +1,5 @@
 # python_projects
-I have completed many projects in Python and this repository contains the ones I am most proud of. 
-
-The projects focus on applying data analytics techniques to real-world marketing problems, including:
+I have completed many projects in Python and this repository contains the ones I am most proud of. The projects focus on applying data analytics techniques to real-world marketing problems, including:
 - Exploratory Data Analysis (EDA)
 - Data cleaning and preprocessing
 - Statistical analysis and hypothesis testing
