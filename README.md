@@ -7,9 +7,10 @@ This repository respresents some of the projects I have completed in Python. The
 - Clustering
 
 ## Each project is organized in its own folder and includes:
-- A Google Colab Notebook ('.ipynb')
-- Dataset(s)
 - A brief project-specific README explaining the business question, approach, and key insights
+- Dataset(s)
+- A Google Colab Notebook ('.ipynb')
+
 
 ## **Some Tools & Libraries Used:**  
 - **Data analysis:** pandas, numpy
