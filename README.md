@@ -1,5 +1,5 @@
 # Python_projects
-This repository respresents some of the projects I have completed in Python. They focus on applying data analytics techniques to real-world problems, including:
+This repository respresents some of the projects I have completed in Python. They focus on applying data analytics techniques to real-world problems, including but not limited to:
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
 - Statistical analysis and hypothesis testing
