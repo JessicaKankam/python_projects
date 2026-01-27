@@ -43,9 +43,7 @@ Demographic variables like Age and Gender were initially explored but excluded a
 
 **A. Hypothesis Testing**
 
-Tested relationships between customer spending and:
-
-- Product category / Add-on purchases / Seasonality
+Tested relationships between customer spending and: Product category / Add-on purchases / Seasonality
 
 **B. Predictive Modeling**
 
