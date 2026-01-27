@@ -18,8 +18,7 @@ To identify the behavioral drivers of customer value, accurately predict high- v
 4. How can insights from predictive modeling and clustering inform targeted marketing strategies, loyalty program design, and customer experience improvements?
 
 ## **Data Overview:**
-
-- Behavioral variables including:
+Behavioral variables including:
 1. Product type
 2. Quantity purchased
 3. Add-on spending
@@ -28,7 +27,7 @@ To identify the behavioral drivers of customer value, accurately predict high- v
 6. Seasonality
 7. Customer ratings
 
-- Demographic variables like Age and Gender were initially explored but excluded after statistical testing showed no meaningful relationship with customer value or spending.
+Demographic variables like Age and Gender were initially explored but excluded after statistical testing showed no meaningful relationship with customer value or spending.
 
 ## **Methodology:**
 
@@ -91,33 +90,33 @@ Strong alignment observed between behavioral clusters and HighValue predictions,
 
 **Data Analysis & Manipulation**
 
--pandas, numpy
+- pandas, numpy
 
--Statistics & Econometrics: scipy.stats, statsmodels (api, formula.api), variance_inflation_factor
+- Statistics & Econometrics: scipy.stats, statsmodels (api, formula.api), variance_inflation_factor
 
 **Visualization**
 
--matplotlib
+- matplotlib
 
--seaborn
+- seaborn
 
--plotnine (ggplot-style)
+- plotnine (ggplot-style)
 
 **Machine Learning (scikit-learn)**
 
--**Preprocessing:** ColumnTransformer, OneHotEncoder, StandardScaler
+- **Preprocessing:** ColumnTransformer, OneHotEncoder, StandardScaler
 
--**Model training:** train_test_split
+- **Model training:** train_test_split
 
--**Regression:** LinearRegression, Lasso
+- **Regression:** LinearRegression, Lasso
 
--**Classification:** LogisticRegression, DecisionTreeClassifier
+- **Classification:** LogisticRegression, DecisionTreeClassifier
 
--**Model validation:** cross_val_score, KFold
+- **Model validation:** cross_val_score, KFold
 
--**Evaluation:** mean_squared_error, accuracy_score, confusion_matrix
+- **Evaluation:** mean_squared_error, accuracy_score, confusion_matrix
 
--**Clustering:** KMeans
+- **Clustering:** KMeans
 
--**Decision tree visualization:** plot_tree
+- **Decision tree visualization:** plot_tree
 
