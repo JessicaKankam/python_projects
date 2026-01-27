@@ -1,19 +1,17 @@
-# python_projects
-I have completed many projects in Python and this repository contains the ones I am most proud of. The projects focus on applying data analytics techniques to real-world marketing problems, including:
-- Exploratory Data Analysis (EDA)
+# Python_projects
+This repository respresents some of the projects I have completed in Python. They focus on applying data analytics techniques to real-world problems, including:
 - Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
 - Statistical analysis and hypothesis testing
 - Predictive modeling (regression + classification)
 - Clustering
-- Business interpretation and recommendations
-- Data-driven storytelling for business decision-making
 
-Each project is organized in its own folder and includes:
+## Each project is organized in its own folder and includes:
 - A Google Colab Notebook ('.ipynb')
-- Supporting datasets
+- Dataset(s)
 - A brief project-specific README explaining the business question, approach, and key insights
 
-**Tools & Libraries:**  
+## **Some Tools & Libraries Used:**  
 - **Data analysis:** pandas, numpy
 - **Statistics & econometrics:** scipy.stats, statsmodels (api, formula.api), variance_inflation_factor
 - **Visualization:** matplotlib, seaborn, plotnine (ggplot-style)
