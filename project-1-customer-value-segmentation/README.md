@@ -51,13 +51,12 @@ Tested relationships between customer spending and: Product category / Add-on pu
 
 **2. Logistic Regression:** Classified customers into high- vs. low-value groups (Accuracy ≈ 82%)
 
-**3. Decision Tree Classifier:** Captured non-linear behavior patterns (Accuracy ≈ 88%)
-Decision trees provided the most interpretable and actionable rules for identifying value-driving behaviors
+**3. Decision Tree Classifier:** Captured non-linear behavior patterns (Accuracy ≈ 88%).
+It provided the most interpretable and actionable rules for identifying value-driving behaviors
 
 **C. Customer Segmentation**
 
-Applied k-means clustering (k = 4) using behavioral features
-Identified four distinct customer segments:
+Applied k-means clustering (k = 4) using behavioral features. Identified four distinct customer segments:
 
 - Loyal Core Smartphone Buyers
 
